@@ -30,7 +30,6 @@ import HeroSectionTow from "../../components/hero-section/HeroSectionTow";
 
 const MainDemo = () => {
 
-
     return (
         <React.Fragment>
 
@@ -50,8 +49,8 @@ const MainDemo = () => {
 
             {/*Start Service Section*/}
             <Container className="section-margin">
-                <TitleSection description="Our Services">
-                    New Branding Agency
+                <TitleSection description="Nos Services">
+                Une gamme pour tous types d'entreprises
                 </TitleSection>
                 <ServiceOne className="text-center" col={3} colMobile={1} colGap={0} colGapTablet={30}/>
             </Container>
