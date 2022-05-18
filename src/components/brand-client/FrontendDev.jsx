@@ -9,27 +9,27 @@ import LazyImg from "../LazyImg";
 
 const BrandDetails = [
     {
-        src: "ReactAlthea/assets/img/logo/14.png",
+        src: "Althea/assets/img/logo/14.png",
         title: "Express.js",
     },
     {
-        src: "ReactAlthea/assets/img/logo/7.png",
+        src: "Althea/assets/img/logo/7.png",
         title: "ReactJS",
     },
     {
-        src: "ReactAlthea/assets/img/logo/15.png",
+        src: "Althea/assets/img/logo/15.png",
         title: "Javascript",
     },
     {
-        src: "ReactAlthea/assets/img/logo/10.png",
+        src: "Althea/assets/img/logo/10.png",
         title: "Android",
     },
     {
-        src: "ReactAlthea/assets/img/logo/16.png",
+        src: "Althea/assets/img/logo/16.png",
         title: "HTML",
     },
     {
-        src: "ReactAlthea/assets/img/logo/17.png",
+        src: "Althea/assets/img/logo/17.png",
         title: "CSS",
     },
 ]

@@ -9,27 +9,27 @@ import LazyImg from "../LazyImg";
 
 const BrandDetails = [
     {
-        src: "ReactAlthea/assets/img/logo/1.png",
+        src: "Althea/assets/img/logo/1.png",
         title: "Wordpress",
     },
     {
-        src: "ReactAlthea/assets/img/logo/2.png",
+        src: "Althea/assets/img/logo/2.png",
         title: "PHP",
     },
     {
-        src: "ReactAlthea/assets/img/logo/3.png",
+        src: "Althea/assets/img/logo/3.png",
         title: "Lavarel",
     },
     {
-        src: "ReactAlthea/assets/img/logo/4.png",
+        src: "Althea/assets/img/logo/4.png",
         title: "Drupal",
     },
     {
-        src: "ReactAlthea/assets/img/logo/5.png",
+        src: "Althea/assets/img/logo/5.png",
         title: "Shopify",
     },
     {
-        src: "ReactAlthea/assets/img/logo/6.png",
+        src: "Althea/assets/img/logo/6.png",
         title: "Magento",
     },
 ]

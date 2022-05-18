@@ -9,19 +9,19 @@ import LazyImg from "../LazyImg";
 
 const BrandDetails = [
     {
-        src: "ReactAlthea/assets/img/logo/18.png",
+        src: "Althea/assets/img/logo/18.png",
         title: "Mean.js",
     },
     {
-        src: "ReactAlthea/assets/img/logo/19.png",
+        src: "Althea/assets/img/logo/19.png",
         title: "Java",
     },
     {
-        src: "ReactAlthea/assets/img/logo/20.png",
+        src: "Althea/assets/img/logo/20.png",
         title: "mern",
     },
     {
-        src: "ReactAlthea/assets/img/logo/21.png",
+        src: "Althea/assets/img/logo/21.png",
         title: ".NET",
     },
 ]
