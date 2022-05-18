@@ -16,7 +16,7 @@ const SleepWalker = ({data}) => {
     return (
         <React.Fragment>
             <Helmet>
-                <title>Droow - {data.title} </title>
+                <title>Althea - {data.title} </title>
                 <meta
                     name="description"
                     content={data.description}

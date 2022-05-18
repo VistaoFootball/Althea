@@ -40,7 +40,7 @@ function HeaderNormal({className, description, children, ...restProps}: HeaderNo
                     {description}
                 </p>}
                 <a href="#0" className={`view-case ${style.sd} mt-30`}>
-                    Scroll Down <FontAwesomeIcon icon={faArrowDown}/>
+                    Scroll <FontAwesomeIcon icon={faArrowDown}/>
                 </a>
             </Container>
             <div className={style.bcd} ref={dot}/>

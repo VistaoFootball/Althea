@@ -6,52 +6,130 @@ import DsnGrid from "../DsnGrid";
 import type {DsnGridProps} from "../DsnGrid";
 import {dsnCN} from "../../hooks/helper";
 import LazyImg from "../LazyImg";
+import { useTranslation } from "react-i18next";
 
 const ServicesDetails = [
     {
-        icon: 'assets/img/services/search-engine.png',
-        title: "Optimisation du moteur de recherche",
-        description: "Le référencement est le processus par lequel les entreprises visent à améliorer non seulement la quantité mais aussi la qualité du trafic sur le site Web reçu des moteurs de recherche."
-        ,
+        icon: 'ReactAlthea/assets/img/services/search-engine.png',
+        title: <ServiceTitle1></ServiceTitle1>,
+        description: <Service1></Service1>,
     },
     {
-        icon: 'assets/img/services/mobile-app.png',
-        title: "Développement d'applications mobiles",
-        description: "Chez Althea, nous avons un large éventail d'expertise et de compétences pertinentes ainsi que la capacité d'identifier les tendances à venir et émergentes."
-        ,
+        icon: 'ReactAlthea/assets/img/services/mobile-app.png',
+        title: <ServiceTitle2></ServiceTitle2>,
+        description: <Service2></Service2>,
     },
     {
-        icon: 'assets/img/services/internet-of-things.png',
-        title: "Développement IoT",
-        description: "L'Internet des objets utilise une technologie qui connecte tout, des fours à la gestion de l'ensemble d'un bâtiment."
+        icon: 'ReactAlthea/assets/img/services/internet-of-things.png',
+        title: <ServiceTitle3></ServiceTitle3>,
+        description: <Service3></Service3>,
     },
     {
-        icon: 'assets/img/services/web-app.png',
-        title: "Développement d'applications web",
-        description: "Chez Althea, nous avons des années d'expérience dans la création d'une variété variée de produits numériques selon les exigences de temps et de budget de clients spécifiques."
+        icon: 'ReactAlthea/assets/img/services/web-app.png',
+        title: <ServiceTitle4></ServiceTitle4>,
+        description: <Service4></Service4>,
     },
     {
-        icon: 'assets/img/services/cloud-computing.png',
-        title: "Cloud computing",
-        description: "Un autre outil d'optimisation est le cloud computing, c'est-à-dire une façon d'utiliser des ordinateurs distants interconnectés."
+        icon: 'ReactAlthea/assets/img/services/cloud-computing.png',
+        title: <ServiceTitle5></ServiceTitle5>,
+        description: <Service5></Service5>,
     },
     {
-        icon: 'assets/img/services/social-media-optimization.png',
-        title: "Optimisation des réseaux sociaux",
-        description: "Les plateformes de médias sociaux ne sont pas seulement un lieu de connexion avec les amis et la famille, mais aussi un lieu de connexion efficace avec les entreprises."
+        icon: 'ReactAlthea/assets/img/services/social-media-optimization.png',
+        title: <ServiceTitle6></ServiceTitle6>,
+        description: <Service6></Service6>,
     },
     {
-        icon: 'assets/img/services/blockchain.png',
-        title: "Développement blockchain",
-        description: "La technologie blockchain est sans aucun doute quelque chose dont tout le monde a entendu parler."
+        icon: 'ReactAlthea/assets/img/services/blockchain.png',
+        title: <ServiceTitle7></ServiceTitle7>,
+        description: <Service7></Service7>,
     },
     {
-        icon: 'assets/img/services/pay-per-click.png',
-        title: "Pay per Click",
-        description: "Alors que le SEO et le SMO génèrent du trafic organique vers votre site Web, il existe des moyens de générer du trafic inorganique via des canaux payants."
+        icon: 'ReactAlthea/assets/img/services/pay-per-click.png',
+        title: <ServiceTitle8></ServiceTitle8>,
+        description: <Service8></Service8>,
     },
 ]
 
+export function ServiceTitle1() {
+    const { t, i18n } = useTranslation();
+return <p>{t("service-title-1")}</p>
+}
+
+export function Service1() {
+    const { t, i18n } = useTranslation();
+return <p>{t("service1")}</p>
+}
+
+export function ServiceTitle2() {
+    const { t, i18n } = useTranslation();
+return <p>{t("service-title-2")}</p>
+}
+
+export function Service2() {
+    const { t, i18n } = useTranslation();
+return <p>{t("service2")}</p>
+}
+
+export function ServiceTitle3() {
+    const { t, i18n } = useTranslation();
+return <p>{t("service-title-3")}</p>
+}
+
+export function Service3() {
+    const { t, i18n } = useTranslation();
+return <p>{t("service3")}</p>
+}
+
+export function ServiceTitle4() {
+    const { t, i18n } = useTranslation();
+return <p>{t("service-title-4")}</p>
+}
+
+export function Service4() {
+    const { t, i18n } = useTranslation();
+return <p>{t("service4")}</p>
+}
+
+export function ServiceTitle5() {
+    const { t, i18n } = useTranslation();
+return <p>{t("service-title-5")}</p>
+}
+
+export function Service5() {
+    const { t, i18n } = useTranslation();
+return <p>{t("service5")}</p>
+}
+
+export function ServiceTitle6() {
+    const { t, i18n } = useTranslation();
+return <p>{t("service-title-6")}</p>
+}
+
+export function Service6() {
+    const { t, i18n } = useTranslation();
+return <p>{t("service6")}</p>
+}
+
+export function ServiceTitle7() {
+    const { t, i18n } = useTranslation();
+return <p>{t("service-title-7")}</p>
+}
+
+export function Service7() {
+    const { t, i18n } = useTranslation();
+return <p>{t("service7")}</p>
+}
+
+export function ServiceTitle8() {
+    const { t, i18n } = useTranslation();
+return <p>{t("service-title-8")}</p>
+}
+
+export function Service8() {
+    const { t, i18n } = useTranslation();
+return <p>{t("service8")}</p>
+}
 const ServiceOne = ({className, ...restProps}: DsnGridProps) => {
     return (
         <DsnGrid className={dsnCN('dsn-services service-one', className)} {...restProps}>
@@ -68,7 +146,8 @@ const ServiceOne = ({className, ...restProps}: DsnGridProps) => {
 
         </DsnGrid>
     );
-};
 
+    
+};
 
 export default ServiceOne

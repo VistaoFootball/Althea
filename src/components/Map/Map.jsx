@@ -94,7 +94,7 @@ Map.defaultProps = {
     mapIcon: mapIcon
 }
 
-export const optionDroowMap = {
+export const optionAltheaMap = {
     styles: [
         {
             "featureType": "all",

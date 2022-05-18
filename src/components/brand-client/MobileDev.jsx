@@ -9,31 +9,31 @@ import LazyImg from "../LazyImg";
 
 const BrandDetails = [
     {
-        src: "/assets/img/logo/7.png",
+        src: "ReactAlthea/assets/img/logo/7.png",
         title: "React Native",
     },
     {
-        src: "/assets/img/logo/8.png",
+        src: "ReactAlthea/assets/img/logo/8.png",
         title: "Ios",
     },
     {
-        src: "/assets/img/logo/9.png",
+        src: "ReactAlthea/assets/img/logo/9.png",
         title: "Ionic",
     },
     {
-        src: "/assets/img/logo/10.png",
+        src: "ReactAlthea/assets/img/logo/10.png",
         title: "Android",
     },
     {
-        src: "/assets/img/logo/11.png",
+        src: "ReactAlthea/assets/img/logo/11.png",
         title: "Flutter",
     },
     {
-        src: "/assets/img/logo/12.png",
+        src: "ReactAlthea/assets/img/logo/12.png",
         title: "Xamarin",
     },
     {
-        src: "/assets/img/logo/13.png",
+        src: "ReactAlthea/assets/img/logo/13.png",
         title: "Kotlin",
     },
 ]

@@ -27,7 +27,7 @@ function About() {
     return (
         <React.Fragment>
             <Helmet>
-                <title>Droow - About Us </title>
+                <title>Althea - About Us </title>
             </Helmet>
 
             {/*Start Header*/}

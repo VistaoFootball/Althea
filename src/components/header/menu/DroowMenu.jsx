@@ -2,18 +2,17 @@ import React from "react";
 import Navbar, {Nav} from "../../nav/Navbar";
 import Brand from "../../brand/Brand";
 import MenuContent from "./MenuContent";
-
+import { useTranslation } from "react-i18next";
+import LanguageSelect from "../../../languageSelect";
 
 const menuContent = [
-    {name: "A propos", to: "/about"},
+    {name: "A propos", to: "/accueil"},
     {name: "Services", to: "/services"},
-    {name: "Produits", to: "/produits"},
-    {name: "Entreprise", to: "/entreprise"},
     {name: "Contact", to: "/contact"},
 
 ];
 
-const DroowMenu = ({hamburger}) => {
+const AltheaMenu = ({hamburger}) => {
 
     let $key = 0;
     const getSubMenu = (items) => {
@@ -27,7 +26,8 @@ const DroowMenu = ({hamburger}) => {
         );
     }
 
-
+        const { t } = useTranslation();
+    
     return (
         <Navbar hamburger={hamburger}>
             <Navbar.Brand to={"/"}>
@@ -38,6 +38,9 @@ const DroowMenu = ({hamburger}) => {
                 <Nav>
                     {menuContent.map(item => getSubMenu(item))}
                 </Nav>
+                <div className="language-select">
+        <LanguageSelect />
+    </div>
                 <MenuContent className="section-margin"/>
             </Navbar.Collapse>
         </Navbar>
@@ -45,9 +48,9 @@ const DroowMenu = ({hamburger}) => {
 
 }
 
-DroowMenu.defaultProps = {
+AltheaMenu.defaultProps = {
     hamburger: false
 }
 
 
-export default DroowMenu;
+export default AltheaMenu;

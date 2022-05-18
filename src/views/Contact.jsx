@@ -5,7 +5,7 @@ import DsnGrid from "../components/DsnGrid";
 
 import HeaderNormalTow from "../components/header/HeaderNormalTow";
 import Footer from "../components/footer/Footer";
-import Map, {optionDroowMap} from "../components/Map/Map";
+import Map, {optionAltheaMap} from "../components/Map/Map";
 import InfoBox from "../components/contact/InfoBox";
 import ContactForm from "../components/contact/ContactForm";
 import NextPage from "../components/next/NextPage";
@@ -25,7 +25,7 @@ function Contact(props) {
         <React.Fragment>
 
             <Helmet>
-                <title>Droow - Contact Us </title>
+                <title>Althea - Contact Us </title>
             </Helmet>
 
             {/*Start Header*/}
@@ -37,7 +37,7 @@ function Contact(props) {
             <Map
                 googleMapKey="AIzaSyDMyAS2jdzj-vdgBIFaIStYOWJtSlghndg"
                 defaultZoom={10}
-                options={optionDroowMap}
+                options={optionAltheaMap}
                 height="80vh"
                 defaultCenter={center}
                 showMarker

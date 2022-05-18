@@ -26,10 +26,11 @@ import BackendDev from "../../components/brand-client/BackendDev";
 import NextPageContent from "../../components/next/NextPageContent";
 import Footer from "../../components/footer/Footer";
 import HeroSectionTow from "../../components/hero-section/HeroSectionTow";
-
+import HeaderNormal from "../../components/header/HeaderNormal";
+import { useTranslation } from "react-i18next";
 
 const MainDemo = () => {
-
+    const { t } = useTranslation();
     return (
         <React.Fragment>
 
@@ -37,9 +38,16 @@ const MainDemo = () => {
                 <title>Althea corp </title>
             </Helmet>
 
-            {/*Start Slider Portfolio*/}
+            <HeaderNormal className="background-section">
+            <TitleSection description="Services">
+                {t("services-title")}
+                </TitleSection>
+            </HeaderNormal>
+
+            {/*Start Slider Portfolio*
             <SliderPortfolio tag="header" className="mb-section"/>
             {/*End Slider Portfolio*/}
+
 
             {/*Start Hero Section*/}
             <Container className="section-margin dsn-right-container">
@@ -49,19 +57,16 @@ const MainDemo = () => {
 
             {/*Start Service Section*/}
             <Container className="section-margin">
-                <TitleSection description="Nos Services">
-                Une gamme pour tous types d'entreprises
-                </TitleSection>
                 <ServiceOne className="text-center" col={3} colMobile={1} colGap={0} colGapTablet={30}/>
             </Container>
             {/*End Service Section*/}
 
-            {/*Start Box Right Info*/}
+            {/*Start Box Right Info
             <HeroSectionTow className="section-margin text-center"/>
             {/*End Box Right Info*/}
 
 
-            {/*Start Portfolio Swiper*/}
+            {/*Start Portfolio Swiper*
             <Container as={TitleSection} description="Our Work">
                 Creative Portfolio Designs
             </Container>
@@ -69,7 +74,7 @@ const MainDemo = () => {
             {/*End Portfolio Swiper*/}
 
 
-            {/*Start Box Info With Image*/}
+            {/*Start Box Info With Image*
             <BoxImageVertical src="/assets/img/project/project1/5.jpg" className="section-margin">
                 <TitleCover>Droow</TitleCover>
                 <FadeUpTrigger>
@@ -108,7 +113,7 @@ const MainDemo = () => {
             </Container>
             {/*End Testimonial*/}
 
-            {/*Start Blog*/}
+            {/*Start Blog*
             <Container className="section-margin dsn-right-container">
                 <TitleSection description="Latest News">
                     Latest & Greatest Post
@@ -119,7 +124,7 @@ const MainDemo = () => {
 
             {/*Start Brand*/}
             <Container className="section-margin">
-                <TitleSection description="Développement web">
+                <TitleSection description={t("web-dev")}>
                     Des technologies adaptées à vos <br/> besoins
                 </TitleSection>
                 <WebDev
@@ -133,7 +138,7 @@ const MainDemo = () => {
 
             {/*Start Brand*/}
             <Container className="section-margin">
-                <TitleSection description="Développement mobile">
+                <TitleSection description={t("mobile")}>
                 </TitleSection>
                 <MobileDev
                     col={3}
@@ -146,7 +151,7 @@ const MainDemo = () => {
 
             {/*Start Brand*/}
             <Container className="section-margin">
-                <TitleSection description="Développement front">
+                <TitleSection description={t("backend")}>
                 </TitleSection>
                 <FrontendDev
                     col={3}
@@ -159,7 +164,7 @@ const MainDemo = () => {
 
             {/*Start Brand*/}
             <Container className="section-margin">
-                <TitleSection description="Développement full-stack">
+                <TitleSection description={t("full-stack")}>
                 </TitleSection>
                 <FullstackDev
                     col={4}
@@ -172,7 +177,7 @@ const MainDemo = () => {
 
             {/*Start Brand*/}
             <Container className="section-margin">
-                <TitleSection description="Développement backend">
+                <TitleSection description={t("backend")}>
                 </TitleSection>
                 <BackendDev
                     col={5}

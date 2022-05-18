@@ -26,7 +26,7 @@ const NovaraConic = ({data}) => {
     return (
         <React.Fragment>
             <Helmet>
-                <title>Droow - {data.title} </title>
+                <title>Althea - {data.title} </title>
                 <meta
                     name="description"
                     content={data.description}
@@ -81,7 +81,7 @@ const NovaraConic = ({data}) => {
             <BoxImageVertical src="/assets/img/project/project8/5.jpg" className="section-margin">
                 <FadeUpTrigger>
                     {(ref) => <DsnGrid col={1} rowGap={30} rowGapTablet={20}>
-                        <TitleCover>Droow</TitleCover>
+                        <TitleCover>Althea</TitleCover>
                         <h2 className='title-section border-line-left' ref={ref}>IT STARTS WITH US.</h2>
                         <h6 ref={ref}>
                             We set THE blue and gold standard, emblazoned it with a bear, and held it high. Then we
