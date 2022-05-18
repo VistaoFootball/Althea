@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Althea/static/css/main.8812334b.css",
-    "main.js": "/Althea/static/js/main.e767c7bf.js",
+    "main.js": "/Althea/static/js/main.2d9096a7.js",
     "static/css/26.5d73a5b5.chunk.css": "/Althea/static/css/26.5d73a5b5.chunk.css",
     "static/js/26.b4aa62a6.chunk.js": "/Althea/static/js/26.b4aa62a6.chunk.js",
     "static/css/827.c5f924c3.chunk.css": "/Althea/static/css/827.c5f924c3.chunk.css",
@@ -46,7 +46,7 @@
     "index.html": "/Althea/index.html",
     "static/media/left-arrow.svg": "/Althea/static/media/left-arrow.9c2c0161317e092ec438a59171717fbd.svg",
     "main.8812334b.css.map": "/Althea/static/css/main.8812334b.css.map",
-    "main.e767c7bf.js.map": "/Althea/static/js/main.e767c7bf.js.map",
+    "main.2d9096a7.js.map": "/Althea/static/js/main.2d9096a7.js.map",
     "26.5d73a5b5.chunk.css.map": "/Althea/static/css/26.5d73a5b5.chunk.css.map",
     "26.b4aa62a6.chunk.js.map": "/Althea/static/js/26.b4aa62a6.chunk.js.map",
     "827.c5f924c3.chunk.css.map": "/Althea/static/css/827.c5f924c3.chunk.css.map",
@@ -90,6 +90,6 @@
   },
   "entrypoints": [
     "static/css/main.8812334b.css",
-    "static/js/main.e767c7bf.js"
+    "static/js/main.2d9096a7.js"
   ]
 }
