@@ -1,7 +1,7 @@
 {
   "name": "droow",
   "version": "1.0.0",
-  "homepage": "http://www.altheacorp.com",
+  "homepage": "http://www.altheacorp.com/",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.5.0",
