@@ -16,8 +16,8 @@ const data = [
         title: <p><TitleSlide1></TitleSlide1></p>,
         slug: <SlugSlide1></SlugSlide1>,
         description: <TextSlide1></TextSlide1>,
-        src: 'Althea/assets/img/project/project1/01.jpg',
-        srcSlider: 'Althea/assets/img/project/project1/01.jpg',
+        src: 'assets/img/project/project1/01.jpg',
+        srcSlider: 'assets/img/project/project1/01.jpg',
         overlay: 2,
         component: (props) => <TimeTagWatch {...props} />
     },
@@ -25,8 +25,8 @@ const data = [
         id: 2,
         title: <p><TitleSlide2></TitleSlide2></p>,
         slug: <SlugSlide2></SlugSlide2>,
-        src: 'Althea/assets/img/project/project2/02.jpg',
-        srcSlider: 'Althea/assets/img/project/project2/02.jpg',
+        src: 'assets/img/project/project2/02.jpg',
+        srcSlider: 'assets/img/project/project2/02.jpg',
         description: <TextSlide2></TextSlide2>,
         overlay: 2,
 
@@ -36,8 +36,8 @@ const data = [
         id: 3,
         title: <p><TitleSlide3></TitleSlide3></p>,
         slug: <SlugSlide3></SlugSlide3>,
-        src: 'Althea/assets/img/project/project3/03.jpg',
-        srcSlider: 'Althea/assets/img/project/project3/03.jpg',
+        src: 'assets/img/project/project3/03.jpg',
+        srcSlider: 'assets/img/project/project3/03.jpg',
         description: <TextSlide3></TextSlide3>,
         overlay: 2,
         component: (props) => <ReStyling {...props}/>
@@ -46,8 +46,8 @@ const data = [
         id: 4,
         title: <p><TitleSlide4></TitleSlide4></p>,
         slug: <SlugSlide4></SlugSlide4>,
-        src: 'Althea/assets/img/project/project4/04.jpg',
-        srcSlider: 'Althea/assets/img/project/project4/04.jpg',
+        src: 'assets/img/project/project4/04.jpg',
+        srcSlider: 'assets/img/project/project4/04.jpg',
         description: <TextSlide4></TextSlide4>,
         overlay: 2,
         component: (props) => <ToastReel {...props}/>

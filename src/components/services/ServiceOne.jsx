@@ -10,42 +10,42 @@ import { useTranslation } from "react-i18next";
 
 const ServicesDetails = [
     {
-        icon: 'Althea/assets/img/services/search-engine.png',
+        icon: 'assets/img/services/search-engine.png',
         title: <ServiceTitle1></ServiceTitle1>,
         description: <Service1></Service1>,
     },
     {
-        icon: 'Althea/assets/img/services/mobile-app.png',
+        icon: 'assets/img/services/mobile-app.png',
         title: <ServiceTitle2></ServiceTitle2>,
         description: <Service2></Service2>,
     },
     {
-        icon: 'Althea/assets/img/services/internet-of-things.png',
+        icon: 'assets/img/services/internet-of-things.png',
         title: <ServiceTitle3></ServiceTitle3>,
         description: <Service3></Service3>,
     },
     {
-        icon: 'Althea/assets/img/services/web-app.png',
+        icon: 'assets/img/services/web-app.png',
         title: <ServiceTitle4></ServiceTitle4>,
         description: <Service4></Service4>,
     },
     {
-        icon: 'Althea/assets/img/services/cloud-computing.png',
+        icon: 'assets/img/services/cloud-computing.png',
         title: <ServiceTitle5></ServiceTitle5>,
         description: <Service5></Service5>,
     },
     {
-        icon: 'Althea/assets/img/services/social-media-optimization.png',
+        icon: 'assets/img/services/social-media-optimization.png',
         title: <ServiceTitle6></ServiceTitle6>,
         description: <Service6></Service6>,
     },
     {
-        icon: 'Althea/assets/img/services/blockchain.png',
+        icon: 'assets/img/services/blockchain.png',
         title: <ServiceTitle7></ServiceTitle7>,
         description: <Service7></Service7>,
     },
     {
-        icon: 'Althea/assets/img/services/pay-per-click.png',
+        icon: 'assets/img/services/pay-per-click.png',
         title: <ServiceTitle8></ServiceTitle8>,
         description: <Service8></Service8>,
     },

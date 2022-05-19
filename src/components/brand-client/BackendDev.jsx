@@ -9,23 +9,23 @@ import LazyImg from "../LazyImg";
 
 const BrandDetails = [
     {
-        src: "Althea/assets/img/logo/2.png",
+        src: "assets/img/logo/2.png",
         title: "PHP",
     },
     {
-        src: "Althea/assets/img/logo/19.png",
+        src: "assets/img/logo/19.png",
         title: "Java",
     },
     {
-        src: "Althea/assets/img/logo/22.png",
+        src: "assets/img/logo/22.png",
         title: "Python",
     },
     {
-        src: "Althea/assets/img/logo/23.png",
+        src: "assets/img/logo/23.png",
         title: "ROR",
     },
     {
-        src: "Althea/assets/img/logo/24.png",
+        src: "assets/img/logo/24.png",
         title: "C sharp",
     },
 ]
