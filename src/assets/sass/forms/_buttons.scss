@@ -5,7 +5,7 @@ input[type="reset"],
 input[type="submit"] {
   position: relative;
   color: $heading-color;
-  background-color: $assistant-color;
+  background-color: transparent/*$assistant-color*/;
   display: inline-block;
   font-size: 14px;
   line-height: 14px;

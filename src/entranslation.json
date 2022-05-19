@@ -44,7 +44,7 @@
       "service4":"At Althea, we have years of experience creating a diverse variety of digital products according to the time and budget requirements of specific clients.",
       "service-title-5":"Cloud Computing",
       "service5":"Another optimization tool is cloud computing, i.e. a way of using interconnected remote computers.",
-      "service-title-6":"Social Media Optimization",
+      "service-title-6":"Digital marketing",
       "service6":"Social media platforms are not only a place to connect with friends and family, but also a place to effectively connect with businesses.",
       "service-title-7":"Blockchain Development",
       "service7":"Blockchain technology is definitely something everyone has heard of.",
@@ -56,7 +56,20 @@
       "web-dev":"web development",
       "mobile":"mobile development",
       "we-are-hiring":"we are hiring",
-      "we-are-hiring-1":"Dare and contact us immediately!"
+      "we-are-hiring-1":"Dare and contact us immediately!",
+      "address":"Address",
+      "main-address":"Headquarters",
+      "home":"Home",
+      "about-us":"About us",
+      "services":"Services",
+      "technologies":"Technologies",
+      "contact":"Contact",
+      "techno-title":"The right technologies for your project",
+      "techno-1":"Standards in web development sometimes change faster than they can be implemented. To stay one step ahead, it is important to focus on trends, techniques, and approaches that are gaining popularity.To create an informative and appealing website, we use innovative technology to collate a unique design language that portrays the highlights of your product in form of visual graphics. We make sure that the communication style is simple yet charming to compel people to know more about your offerings.",
+      "techno-2":"We are attuned to your requirements and our team has incredible expertise to serve you just what you need. Our focus on user friendly navigation and an endearing interface make sure that all the elements of your website are neatly packaged for the convenience of the customer. As important as it is to let the customer know about your services, it is equally vital that you package it as sophisticated as possible. We help you design your website with contemporary themes that will strike a chord with your target audience.",
+      "new-project-title": "Talk about your project",
+      "new-project-1":"Let's talk about your project, feasibility and action plan"
     }
+
 
   

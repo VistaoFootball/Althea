@@ -21,20 +21,13 @@ i18n
   .use(LanguageDetector)
   .use(initReactI18next)
   .init({
+    fallbackLng: "en",
+    debug: true,
+    lng: "en",
     resources,
-    fallbackLng,
-
-    detection: {
-      checkWhitelist: true
-    },
-
-    debug: false,
-
-    whitelist: availableLanguages,
-
     interpolation: {
-      escapeValue: false
-    }
-  });
+      escapeValue: false, // not needed for react as it escapes by default
+    },
+  })
 
 export default i18n;

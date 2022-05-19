@@ -8,6 +8,7 @@ import SleepWalker from "../../views/portfolio/SleepWalker";
 import NovaraConic from "../../views/portfolio/NovaraConic";
 import BastianBux from "../../views/portfolio/BastianBux";
 import { useTranslation } from "react-i18next";
+import ButtonDefault from "../../components/button/button-default/ButtonDefault";
 
 const data = [
     {
@@ -80,7 +81,7 @@ return <p>{t("TitleSlide1")}</p>
 
 export function TextSlide1() {
     const { t, i18n } = useTranslation();
-return <p>{t("TextSlide1")}</p>
+return <p>{t("TextSlide1")}<br/><br/><ButtonDefault to="/about" text={t("view")}></ButtonDefault></p>
 }
 
 export function SlugSlide2() {
@@ -95,7 +96,7 @@ return <p>{t("TitleSlide2")}</p>
 
 export function TextSlide2() {
     const { t, i18n } = useTranslation();
-return <p>{t("TextSlide2")}</p>
+return <p>{t("TextSlide2")}<br/><br/><ButtonDefault to="/services" text={t("view")}></ButtonDefault></p>
 }
 
 export function SlugSlide3() {
@@ -110,7 +111,7 @@ return <p>{t("TitleSlide3")}</p>
 
 export function TextSlide3() {
     const { t, i18n } = useTranslation();
-return <p>{t("TextSlide3")}</p>
+return <p>{t("TextSlide3")}<br/><br/><ButtonDefault to="/contact" text={t("view")}></ButtonDefault></p>
 }
 
 export function SlugSlide4() {
@@ -125,5 +126,5 @@ return <p>{t("TitleSlide4")}</p>
 
 export function TextSlide4() {
     const { t, i18n } = useTranslation();
-return <p>{t("TextSlide4")}</p>
+return <p>{t("TextSlide4")}<br/><br/><ButtonDefault to="/contact" text={t("view")}></ButtonDefault></p>
 }

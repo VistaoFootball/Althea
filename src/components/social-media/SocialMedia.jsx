@@ -8,10 +8,13 @@ import {splittingItems} from "../../hooks/Spltting";
 
 function SocialMedia({className}) {
     const ref = useRef();
+
     const socialData = [
+        /* 
         {link: "#0", icon: faFacebookF},
         {link: "#0", icon: faTwitter},
         {link: "#0", icon: faInstagram},
+        */
     ];
 
 
@@ -20,11 +23,12 @@ function SocialMedia({className}) {
     });
 
     return (
+        
         <ul className={dsnCN('social-one', className)} ref={ref}>
             {socialData.map((item, index) =>
                 <li key={index}>
                     <a href={item.link} target="_blank" rel="noopener noreferrer">
-                        <FontAwesomeIcon icon={item.icon}/>
+                       */} <FontAwesomeIcon icon={item.icon}/>
                     </a>
                 </li>
             )}

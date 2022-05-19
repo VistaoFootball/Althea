@@ -44,7 +44,7 @@
     "service4":"Chez Althea, nous avons des années d'expérience dans la création d'une variété variée de produits numériques selon les exigences de temps et de budget de clients spécifiques.",
     "service-title-5":"Cloud computing",
     "service5":"Un autre outil d'optimisation est le cloud computing, c'est-à-dire une façon d'utiliser des ordinateurs distants interconnectés.",
-    "service-title-6":"Optimisation des réseaux sociaux",
+    "service-title-6":"Digital marketing",
     "service6":"Les plateformes de médias sociaux ne sont pas seulement un lieu de connexion avec les amis et la famille, mais aussi un lieu de connexion efficace avec les entreprises.",
     "service-title-7":"Développement blockchain",
     "service7":"La technologie blockchain est sans aucun doute quelque chose dont tout le monde a entendu parler.",
@@ -56,7 +56,19 @@
     "web-dev":"développement web",
     "mobile":"développemet mobile",
     "we-are-hiring":"on recrute",
-    "we-are-hiring-1":"Contactez-nous tout de suite !"
+    "we-are-hiring-1":"Contactez-nous tout de suite !",
+    "address":"Adresse",
+    "main-address":"Adresse du siège",
+    "home":"Accueil",
+    "about-us":"A propos",
+    "services":"Services",
+    "technologies":"Technologies",
+    "contact":"Contact",
+    "techno-title":"Les technologies adéquates à votre projet",
+    "techno-1":"Les normes de développement Web changent parfois plus vite qu'elles ne peuvent être mises en œuvre. Pour garder une longueur d'avance, il est important de se concentrer sur les tendances, les techniques et les approches qui gagnent en popularité. Pour créer un site Web informatif et attrayant, nous utilisons une technologie innovante pour rassembler un langage de conception unique qui représente les points forts de votre produit sous forme de graphismes visuels. Nous veillons à ce que le style de communication soit simple mais charmant pour obliger les gens à en savoir plus sur vos offres.",
+    "techno-2":"Nous sommes à l'écoute de vos besoins et notre équipe possède une expertise incroyable pour vous servir exactement ce dont vous avez besoin. Notre concentration sur une navigation conviviale et une interface attrayante garantit que tous les éléments de votre site Web sont soigneusement emballés pour la commodité du client. Aussi important qu'il soit d'informer le client de vos services, il est tout aussi essentiel que vous le présentiez de la manière la plus sophistiquée possible. Nous vous aidons à concevoir votre site Web avec des thèmes contemporains qui trouveront un écho auprès de votre public cible.",
+    "new-project-title": "Parlez de votre projet",
+    "new-project-1":"Echangons sur votre projet, sa faisabilité et le plan d'action à mettre en place"
 
 }
   

@@ -12,10 +12,11 @@ import ContentFooter from "./ContentFooter";
 import AddressFooter from "./AddressFooter";
 import Copyright from "./Copyright";
 import {dsnCN} from "../../hooks/helper";
-
+import { useTranslation } from "react-i18next";
 
 function Footer({className, ...restProps}) {
 
+    const { t } = useTranslation();
 
     return (
         <footer className={dsnCN('footer background-section', className)} {...restProps}>
@@ -44,7 +45,7 @@ function Footer({className, ...restProps}) {
 
 
                         <div className='dsn-col-footer'>
-                            <h4 className="footer-title">Address</h4>
+                            <h4 className="footer-title">{t("address")}</h4>
                             <AddressFooter/>
                         </div>
                     </DsnGrid>

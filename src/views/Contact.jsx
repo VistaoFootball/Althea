@@ -14,18 +14,20 @@ import {Helmet} from "react-helmet";
 
 const headerContent = {
     title: 'Contact',
-    description: `Lat's Tock`
+    description: "",
 }
 
 function Contact(props) {
 
-    const center = {lat: 30.0489206, lng: 31.258553};
+
+
+    const center = {lat: 48.578400795751236, lng: 7.732016368872886};
 
     return (
         <React.Fragment>
 
             <Helmet>
-                <title>Althea - Contact Us </title>
+                <title>Althea - Contact</title>
             </Helmet>
 
             {/*Start Header*/}
@@ -45,15 +47,11 @@ function Contact(props) {
 
             {/*Start Contact Form && Info Box*/}
             <Container className="section-margin">
-                <DsnGrid col={2} colTablet={1}>
+                <DsnGrid col={1} colTablet={1}>
                     <InfoBox className="background-section p-30"/>
-                    <ContactForm/>
+                    {/*<ContactForm/>*/}
                 </DsnGrid>
             </Container>
-
-            <NextPage className="section-margin" to="/portfolio" text="See More Works.">
-                Portfolio
-            </NextPage>
             <Footer/>
 
 

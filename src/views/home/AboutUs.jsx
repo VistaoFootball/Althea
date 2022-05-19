@@ -25,7 +25,7 @@ import HeroSectionTow from "../../components/hero-section/HeroSectionTow";
 import { useTranslation } from "react-i18next";
 import LanguageSelect from "../../languageSelect";
 import CheckIcon from '@mui/icons-material/Check';
-
+import HeaderNormal from "../../components/header/HeaderNormalTow";
 
 const MainDemo = () => {
   const { t } = useTranslation();
@@ -37,35 +37,12 @@ const MainDemo = () => {
                 <title>Althea corp</title>
             </Helmet>
 
-            {/*Start Slider Portfolio*/}
-            <SliderPortfolio tag="header" className="mb-section"></SliderPortfolio>
-            {/*End Slider Portfolio*/}
-  {/*Start Hero Section*
-            <Container className="section-margin dsn-right-container">
-                <HeroSection/>
-            </Container>
-            {/*End Hero Section*/}
-
-            {/*Start Service Section*
-            <Container className="section-margin">
-                <TitleSection description="Our Services">
-                    New Branding Agency
+            <HeaderNormal className="background-section">
+            <TitleSection description={t("about-us")}>
+                {t("TitleSlide2")}
                 </TitleSection>
-                <ServiceOne className="text-center" col={3} colMobile={1} colGap={0} colGapTablet={30}/>
-            </Container>
-            {/*End Service Section*/}
+            </HeaderNormal>
 
-            {/*Start Box Right Info*
-            <HeroSectionTow className="section-margin text-center"/>
-            {/*End Box Right Info*/}
-
-
-            {/*Start Portfolio Swiper*
-            <Container as={TitleSection} description="Our Work">
-                Creative Portfolio Designs
-            </Container>
-            <PortfolioSwiper grabCursor/>
-            {/*End Portfolio Swiper*/}
 
                         {/*Start Box Info With Image*/}
                         <BoxImageVertical src="/assets/img/project/project1/5.jpg" className="section-margin">

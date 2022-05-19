@@ -1,6 +1,7 @@
 import React, {useEffect, useRef} from "react";
 import dsnSplitting from "../../../hooks/Spltting";
 import {dsnCN} from "../../../hooks/helper";
+import LanguageSelect from "../../../languageSelect";
 
 const Toggle =
     ({textOpen, textMenu, textClose, targetNav, reserved, setReserved, removeOpenMenu, className, ...restProps}) => {
@@ -28,7 +29,10 @@ const Toggle =
         }, []);
 
         return (
+
+            
             <div className={dsnCN('navbar-toggle', className)} {...restProps} onClick={toggleClick}>
+                 <LanguageSelect style={{"background-color":"blue!important"}}></LanguageSelect>
                 <div className="toggle-icon">
                     <div className="toggle-line"/>
                     <div className="toggle-line"/>
@@ -39,8 +43,10 @@ const Toggle =
                     <div className="text-open" ref={splitOpen}>{textOpen}</div>
                     <div className="text-close" ref={splitClose}>{textClose}</div>
                 </div>
-
             </div>
+            
+           
+            
         );
     }
 

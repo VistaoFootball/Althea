@@ -10,9 +10,8 @@ import ListItem from "@material-ui/core/ListItem";
 import ListSubheader from "@material-ui/core/ListSubheader";
 
 const languageMap = {
-  en: { label: "English", dir: "ltr", active: true },
-  ar: { label: "العربية", dir: "rtl", active: false },
-  fr: { label: "Français", dir: "ltr", active: false }
+  en: { label: "EN", dir: "ltr", active: true },
+  fr: { label: "FR", dir: "ltr", active: false }
 };
 
 const LanguageSelect = () => {
@@ -45,7 +44,6 @@ const LanguageSelect = () => {
       >
         <div>
           <List>
-            <ListSubheader>{t("select_language")}</ListSubheader>
             {Object.keys(languageMap)?.map(item => (
               <ListItem
                 button
