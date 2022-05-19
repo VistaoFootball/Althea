@@ -1,7 +1,7 @@
 {
   "name": "droow",
   "version": "1.0.0",
-  "homepage": "https://vistaofootball.github.io/Althea/",
+  "homepage": "https://altheacorp.com",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.5.0",
