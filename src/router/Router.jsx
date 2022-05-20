@@ -53,7 +53,7 @@ const Router = () => {
             <Suspense fallback={<div className="background-main h-100-v" />}>
                 <Routes location={location}>
 
-                    <Route path="/Althea" element={<Home/>}/>
+                    <Route path="/" element={<Home/>}/>
                     <Route path="/services" element={<Services/>}/>
                     <Route path="/technologies" element={<Technologies/>}/>
                     <Route exact path="/about" element={<AboutUs/>}/>

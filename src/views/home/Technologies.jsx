@@ -42,10 +42,10 @@ const MainDemo = () => {
             <TitleSection description="technologies">
             {t("techno-title")}
                 </TitleSection>
-                <p style={{"font-size":"18px"}}>
+                <p className="mt-10" style={{"font-size":"18px","font-weight": "initial"}}>
                 {t("techno-1")}
                 </p>
-                <p style={{"font-size":"18px"}}>
+                <p style={{"font-size":"18px","font-weight": "initial"}}>
                 {t("techno-2")}
                 </p>
             </HeaderNormal>

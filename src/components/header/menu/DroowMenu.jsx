@@ -8,7 +8,7 @@ import Contact from "../../../views/Contact";
 
 
 const menuContent = [
-    {to: "/Althea", name: <Home></Home>},
+    {to: "/", name: <Home></Home>},
     {to: "/about", name: <About></About>},
     {to: "/services", name: <Services></Services>},
     {to: "/technologies", name: <Technologies></Technologies>},
@@ -39,7 +39,7 @@ const AltheaMenu = ({hamburger}) => {
                 <Nav>
                     {menuContent.map(item => getSubMenu(item))}
                 </Nav>
-                <MenuContent className="section-margin"/>
+                {/*<MenuContent className="section-margin"/>*/}
             </Navbar.Collapse>
         </Navbar>
     );
